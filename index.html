@@ -62,7 +62,7 @@
 		
 		<!--header-top start -->
 		<header id="header-top" class="header-top">
-			<ul>
+			<!-- <ul>
 				<li>
 					<div class="header-top-left">
 						<ul>
@@ -101,7 +101,7 @@
 						</ul>
 					</div>
 				</li>
-			</ul>
+			</ul> -->
 					
 		</header><!--/.header-top-->
 		<!--header-top end -->
@@ -115,24 +115,39 @@
 			        <div class="container">
 
 			            <!-- Start Header Navigation -->
-			            <div class="navbar-header">
-			                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-menu">
-			                    <i class="fa fa-bars"></i>
-			                </button>
-			                <a class="navbar-brand" href="index.html">list<span>race</span></a>
+						<div class="navbar-header h-100 ">
+							<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-menu">
+								<i class="fa fa-bars"></i>
+							</button>
+							<a class="navbar-brand" href="index.html">list<span>race</span></a>
+				
+							<!-- Search and Location Inputs Side by Side -->
+							<div class="nav-search-bar h-100 w-100">
+								<div>
+									<input type="text" class="form-control" placeholder="Enter Location" id="locationBox">
+								<input type="text" class="form-control mr-2" placeholder="Search..." id="searchBar">
 
-			            </div><!--/.navbar-header-->
+								</div>
+								
+								<button class="btn btn-primary" type="button" id="searchBtn">Search <i data-feather="search"></i> </button>
+								
+							</div>
+						</div>
+						<!--/.navbar-header-->
 			            <!-- End Header Navigation -->
 
 			            <!-- Collect the nav links, forms, and other content for toggling -->
 			            <div class="collapse navbar-collapse menu-ui-design" id="navbar-menu">
 			                <ul class="nav navbar-nav navbar-right" data-in="fadeInDown" data-out="fadeOutUp">
-			                    <li class=" scroll active"><a href="#home">home</a></li>
+			                    <!-- <li class=" scroll active"><a href="#home">home</a></li>
 			                    <li class="scroll"><a href="#works">how it works</a></li>
 			                    <li class="scroll"><a href="#explore">explore</a></li>
 			                    <li class="scroll"><a href="#reviews">review</a></li>
 			                    <li class="scroll"><a href="#blog">blog</a></li>
-			                    <li class="scroll"><a href="#contact">contact</a></li>
+			                    <li class="scroll"><a href="#contact">contact</a></li> -->
+								<li class="scroll"><a href=""> Free listing</a></li>
+								
+								<li class="login-container"><a href="#" class="btn btn-primary" id="new-button">Login/Signup</a></li>
 			                </ul><!--/.nav -->
 			            </div><!-- /.navbar-collapse -->
 			        </div><!--/.container-->
@@ -195,7 +210,7 @@
 								<div class="single-list-topics-icon">
 									<i class="flaticon-restaurant"></i>
 								</div>
-								<h2><a href="page/resturent/resturent.html">Resturent</a></h2>
+								<h2><a href="page/resturent/resturent.html">Restaurants</a></h2>
 								<p>150 listings</p>
 							</div>
 						</li>
@@ -204,16 +219,17 @@
 								<div class="single-list-topics-icon">
 									<i class="flaticon-travel"></i>
 								</div>
-								<h2><a href="#">destination</a></h2>
+								<h2><a href="#">Hotels</a></h2>
 								<p>214 listings</p>
 							</div>
 						</li>
 						<li>
 							<div class="single-list-topics-content">
 								<div class="single-list-topics-icon">
-									<i class="flaticon-building"></i>
+									
+									<i class="fa-solid fa-graduation-cap fa-2xl"></i>
 								</div>
-								<h2><a href="page/hotels/hotels.html">hotels</a></h2>
+								<h2><a href="page/hotels/hotels.html">Education</a></h2>
 								<p>185 listings</p>
 							</div>
 						</li>
@@ -222,16 +238,17 @@
 								<div class="single-list-topics-icon">
 									<i class="flaticon-pills"></i>
 								</div>
-								<h2><a href="#">healthcaree</a></h2>
+								<h2><a href="#">Hospitals</a></h2>
 								<p>200 listings</p>
 							</div>
 						</li>
 						<li>
 							<div class="single-list-topics-content">
 								<div class="single-list-topics-icon">
-									<i class="fa-solid fa-van-shuttle fa-2xl"></i>
+									<i class="flaticon-building"></i>
+									
 								</div>
-								<h2><a href="#">automotion</a></h2>
+								<h2><a href="#">PG/Hostels</a></h2>
 								<p>120 listings</p>
 							</div>
 						</li>
@@ -240,7 +257,7 @@
 								<div class="single-list-topics-icon">
 									<i class="fa-solid fa-graduation-cap fa-2xl"></i>
 								</div>
-								<h2><a href="#">Education</a></h2>
+								<h2><a href="#">Beauty Spa</a></h2>
 								<p>150 listings</p>
 							</div>
 						</li>
