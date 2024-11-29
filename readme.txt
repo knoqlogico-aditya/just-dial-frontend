@@ -1,1 +1,1 @@
-#  link  https://akshit247-dev.github.io/justdial/
+#  link  https://knoqlogico-aditya.github.io/just-dial-frontend/
